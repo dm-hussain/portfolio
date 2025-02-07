@@ -25,6 +25,14 @@ var swiper = new Swiper(".mySwiper", {
 
 
 
+  const navBarToggler= document.querySelector('.navbar-toggler')
+  const navBox= document.querySelector('.navbar-collapse')
+  navBox.addEventListener('click', ()=>{
+    navBox.classList.remove('show')
+  })
+
+
+
   // Hide Scroll button***************
 
 

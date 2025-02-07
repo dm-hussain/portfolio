@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
+    <link rel="stylesheet" href="button.css">
     <script src="bootstrap.bundle.min.js" defer></script>
     <script src="script.js" defer></script>
 </head>
@@ -37,14 +38,15 @@
               <a class="nav-link text-light" href="#about">About</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link text-light" href="#work">SKILL</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link text-light" href="#portfolio">Portfolio</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#work">Work</a>
-            </li>
-            <li class="nav-item">
+           
+            <!-- <li class="nav-item">
               <a class="nav-link text-light" href="#blog">Blog</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link text-light" href="#contact">Contact</a>
             </li>
@@ -52,7 +54,7 @@
           </ul>
         
 <div class="text-center">
-  <a class="btn btn-primary myBtn mx-auto text-uppercase rounded-0 bg-green text-dark-blue" role="button">Let's talk</a>
+  <a class="btn btn-primary myBtn mx-auto text-uppercase rounded-0 bg-green text-dark-blue" href="#contact" role="button">Let's talk</a>
 
 </div>
 
@@ -76,14 +78,20 @@
         
         <h5 class="text-light text-uppercase greet-text  text-lg-start text-center">Hello I'm</h5>
 
-        <h1 class="text-white main-heading text-lg-start text-center">Web Designer & </h1>
-        <span class="text-green  main-heading text-lg-start text-center d-block">Developer</span>
-          <p class="my-4 text-lg-start text-center">Hi I am Md Shah Hussain, a professional Web Developer. Welcome to my portfolio</p>
+        <h1 class="text-white main-heading text-lg-start text-center">Aspiring Frontend <span class="text-green  main-heading text-lg-start text-center ">Developer</span>
+        </h1>
+          <p class="my-4 text-lg-start text-center"> I'm Md Shah Hussain, a passionate Frontend Developer dedicated to creating responsive and user-friendly web experiences. I specialize in modern web technologies like HTML, CSS, JavaScript and React to bring ideas to life</p>
       
           <div class="text-center text-lg-start">
-            <a class="btn btn-primary myBtn mx-auto text-uppercase rounded-0 bg-green text-dark-blue" role="button">VIEW PORTFOLIO</a>
-          
+
+            <a href="asset/client 1.jpg" download="Md_Shah_Hussain_Resume.pdf">
+              <button href="#portfolio" class="buttonDownload text-uppercase ">Download Resume</button>
+
+            </a>
+            
           </div>
+
+ 
         </section>
 
 
@@ -103,7 +111,7 @@
 
     <section id="about" class="about-section container-section  ">
 
-     <div class="container">
+    
       <div class="row flex-lg-row flex-column">
 
         <section class="about-img-section col-lg-6 col-12 position-relative order-lg-first order-last">
@@ -114,17 +122,47 @@
         </section>
 
         <section class="about-test-section col-lg-6 col-12 d-flex flex-column justify-content-center px-4 ">
-          <h5 class="text-light text-uppercase greet-text ">Let me introduce myself</h5>
+          <h5 id="intro-text" class="text-light text-uppercase greet-text    ">Let me introduce myself</h5>
             <h2 class="text-green">About me</h2>
 
-            <h4 class="text-white">A story of hardwork and preserverance</h4>
-            <p>Hi, i'm Mohammad Shah Hussain, a Frontend developer Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti autem maiores ratione earum consequuntur repellat fugit enim sunt nemo temporibus!</p>
+            <!-- <h4 class="text-white">A story of hardwork and preserverance</h4> -->
+            <p> 
+              Hello! I'm Md Shah Hussain, a passionate Frontend Developer with a keen eye for design and a love for building interactive, user-friendly web applications. I enjoy transforming creative ideas into seamless digital experiences with clean and efficient code.
+<br><br>
+              My journey into frontend development began with a curiosity for how websites work, which soon turned into a deep passion for crafting elegant and responsive UIs. I take pride in writing well-structured code and continuously learning new technologies to stay ahead in the ever-evolving web development landscape.
+              <br><br>
+              I have experience working with modern web technologies, including HTML, CSS, JavaScript, Tailwind CSS, Bootstrap, and React.js.
+            </p>
  
             <h4 class="text-white">Contact</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iure in necessitatibus, ea dolores unde voluptatum commodi impedit distinctio deleniti veritatis.   </p>
+          <p>           
+            I’d love to connect and discuss new opportunities, collaborations, or any exciting projects you have in mind. Feel free to reach out!    </p>
+ 
+            <p>
+            📧 <b class="text-light">dm.hussain18@gmail.com</b>
+                       <br>
+            📞  <a href="tel:+917209868108"> <b class="text-light">+91-7209868108</b> </a>  <br>
+           
+
+
+            🌐 <a href="dm_hussain.com" target="_blank"> <b class="text-light"> My Website</b></a> <br>
+
+
+            <!-- 💼 **LinkedIn:** [Your LinkedIn Profile] <br>  -->
+
+
+            🐙    <a class="text-success" href="https://github.com/dm-hussain" target="_blank"><b class="text-light">My GitHub</b> </a>  
+            <br>
+            
+            <p>Looking forward to hearing from you! </p> 
+          </p>
+         
           
           <div class="text-center text-lg-start">
-            <a class="btn btn-primary myBtn mx-auto text-uppercase rounded-0 bg-green text-dark-blue" role="button">Hire Me</a>
+            <a class="btn btn-primary myBtn mx-auto text-uppercase rounded-0 bg-green text-dark-blue" role="button" href="https://wa.me/+917209868108?text=Hello%20Hussain%2C%20I%20would%20like%20to%20connect%20with%20you." target="_blank">Hire Me</a>
+
+            
+            
           
           </div>
         
@@ -137,9 +175,359 @@
     </section>
 
 
+<!-- Skill Section************************************** -->
+<section id="work" class="service-section container-section">
+
+  <div class="container text-center">
+
+    <h3 class="text-green">My Skills</h3>
+
+    <!-- <div class="row gap-3"> -->
+
+      <div class="row gap-3">
+
+        
+
+
+        <div class="skill-card col mx-auto flex justify-content-center align-items-center">
+          <!-- From Uiverse.io by ElSombrero2 --> 
+  <div class="skill-card-box">
+    <div class="content">
+      <div class="back">
+        <div class="back-content">
+          <svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" height="50px" width="50px" fill="#ffffff">
+  
+          <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+  
+          <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+  
+          <g id="SVGRepo_iconCarrier">
+            <div class="course-logo">
+              <img  src="./asset/html-logo.png" alt="html-logo" >
+            </div>
+           
+  
+          </g>
+  
+          </svg>
+          <strong>HTML</strong>
+        </div>
+      </div>
+      <div class="front">
+        
+        <div class="img">
+          <div class="circle">
+          </div>
+          <div class="circle" id="right">
+          </div>
+          <div class="circle" id="bottom">
+          </div>
+        </div>
+  
+        <div class="front-content">
+          <small class="badge">HTML5</small>
+          <div class="description">
+            <div class="title">
+              <p class="title">
+                <strong class="text-light">Web Structure</strong>
+              </p>
+              <i class="fa-brands fa-html5 text-green d-inline-block fs-3" ></i>
+               
+            </div>
+            <p class="card-footer">
+              I use HTML5 for structuring web pages.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+        </div> 
+
+        <div class="skill-card col mx-auto flex justify-content-center align-items-center">
+          <!-- From Uiverse.io by ElSombrero2 --> 
+  <div class="skill-card-box">
+    <div class="content">
+      <div class="back">
+        <div class="back-content">
+          <svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" height="50px" width="50px" fill="#ffffff">
+  
+          <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+  
+          <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+  
+          <g id="SVGRepo_iconCarrier">
+            <!-- <img class="course-logo" src="./asset/css-logo.png" alt="css-logo" > -->
+            <div class="course-logo">
+              <img  src="./asset/css-logo.png" alt="html-logo" >
+            </div>
+  
+          </g>
+  
+          </svg>
+          <strong>CSS</strong>
+        </div>
+      </div>
+      <div class="front">
+        
+        <div class="img">
+          <div class="circle">
+          </div>
+          <div class="circle" id="right">
+          </div>
+          <div class="circle" id="bottom">
+          </div>
+        </div>
+  
+        <div class="front-content">
+          <small class="badge">CSS</small>
+          <div class="description">
+            <div class="title">
+              <p class="title">
+                <strong class="text-light">Web Style</strong>
+              </p>
+              <i class="fa-brands fa-css text-green d-inline-block fs-3" ></i>
+               
+            </div>
+            <p class="card-footer">
+              Skilled in creating visually appealing designs, animations, and responsive layouts using            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+        </div> 
+
+        <div class="skill-card col mx-auto flex justify-content-center align-items-center">
+          <!-- From Uiverse.io by ElSombrero2 --> 
+  <div class="skill-card-box">
+    <div class="content">
+      <div class="back">
+        <div class="back-content">
+          <svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" height="50px" width="50px" fill="#ffffff">
+  
+          <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+  
+          <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+  
+          <g id="SVGRepo_iconCarrier">
+            <div class="course-logo">
+              <img  src="./asset/js-logo.png" alt="html-logo" >
+            </div>           
+  
+          </g>
+  
+          </svg>
+          <strong>JavaScript</strong>
+        </div>
+      </div>
+      <div class="front">
+        
+        <div class="img">
+          <div class="circle">
+          </div>
+          <div class="circle" id="right">
+          </div>
+          <div class="circle" id="bottom">
+          </div>
+        </div>
+  
+        <div class="front-content">
+          <small class="badge">JAVASCRIPT</small>
+          <div class="description">
+            <div class="title">
+              <p class="title">
+                <strong class="text-light">DYNAMIC PAGE</strong>
+              </p>
+              <i class="fa-brands fa-js text-green d-inline-block fs-3" ></i>
+               
+            </div>
+            <p class="card-footer">
+              Experienced in writing clean and efficient JavaScript code to add interactivity.            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+        </div> 
+
+
+        <div class="skill-card col mx-auto flex justify-content-center align-items-center">
+          <!-- From Uiverse.io by ElSombrero2 --> 
+  <div class="skill-card-box">
+    <div class="content">
+      <div class="back">
+        <div class="back-content">
+          <svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" height="50px" width="50px" fill="#ffffff">
+  
+          <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+  
+          <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+  
+          <g id="SVGRepo_iconCarrier">
+            <div class="course-logo">
+              <img  src="./asset/react-logo.png" alt="react-logo" >
+            </div>
+           
+          </g>
+  
+          </svg>
+          <strong>REACT</strong>
+        </div>
+      </div>
+      <div class="front">
+        
+        <div class="img">
+          <div class="circle">
+          </div>
+          <div class="circle" id="right">
+          </div>
+          <div class="circle" id="bottom">
+          </div>
+        </div>
+  
+        <div class="front-content">
+          <small class="badge">REACT</small>
+          <div class="description">
+            <div class="title">
+              <p class="title">
+                <strong class="text-light">DYNAMIC UI</strong>
+              </p>
+              <i class="fa-brands fa-react text-green d-inline-block fs-3" ></i>
+               
+            </div>
+            <p class="card-footer">
+              Currently learning React.js to build scalable and reusable UI components
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+        </div> 
+       
+
+        <div class="skill-card col mx-auto flex justify-content-center align-items-center">
+          <!-- From Uiverse.io by ElSombrero2 --> 
+  <div class="skill-card-box">
+    <div class="content">
+      <div class="back">
+        <div class="back-content">
+          <svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" height="50px" width="50px" fill="#ffffff">
+  
+          <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+  
+          <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+  
+          <g id="SVGRepo_iconCarrier">
+            
+            <div class="course-logo">
+              <img  src="./asset/tailwind-logo.png" alt="tailwind-logo" >
+            </div>
+  
+          </g>
+  
+          </svg>
+          <strong>Tailwind CSS</strong>
+        </div>
+      </div>
+      <div class="front">
+        
+        <div class="img">
+          <div class="circle">
+          </div>
+          <div class="circle" id="right">
+          </div>
+          <div class="circle" id="bottom">
+          </div>
+        </div>
+  
+        <div class="front-content">
+          <small class="badge">TAILWIND CSS</small>
+          <div class="description">
+            <div class="title">
+              <p class="title">
+                <strong class="text-light">Web Style</strong>
+              </p>
+              <i class="text-green d-inline-block" > <img height="29px" src="./asset/tailwind-logo.png" />  </i>
+               
+            </div>
+            <p class="card-footer">
+              I leverage Tailwind CSS for rapidly designing modern and responsive user interfaces.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+        </div> 
+
+        <div class="skill-card col mx-auto flex justify-content-center align-items-center">
+          <!-- From Uiverse.io by ElSombrero2 --> 
+  <div class="skill-card-box">
+    <div class="content">
+      <div class="back">
+        <div class="back-content">
+          <svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" height="50px" width="50px" fill="#ffffff">
+  
+          <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+  
+          <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+  
+          <g id="SVGRepo_iconCarrier">
+            
+            <div class="course-logo">
+              <img  src="./asset/bootstrap-logo.png" alt="tailwind-logo" >
+            </div>
+  
+          </g>
+  
+          </svg>
+          <strong>BootStrap</strong>
+        </div>
+      </div>
+      <div class="front">
+        
+        <div class="img">
+          <div class="circle">
+          </div>
+          <div class="circle" id="right">
+          </div>
+          <div class="circle" id="bottom">
+          </div>
+        </div>
+  
+        <div class="front-content">
+          <small class="badge">BOOTSTRAP</small>
+          <div class="description">
+            <div class="title">
+              <p class="title">
+                <strong class="text-light">Responsive Designs</strong>
+              </p>
+               
+              <i class="fa-brands fa-bootstrap text-green d-inline-block fs-3"></i>
+            </div>
+            <p class="card-footer">
+              Proficient in using Bootstrap to develop mobile-first and responsive designs quickly.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+        </div> 
+
+      </div>
+
+
+  </div>
+
+</section>
+
+
     <!-- Service Section********************** -->
 
-    <section id="work" class="service-section container-section">
+    <!-- <section id="work" class="service-section container-section">
 
        <div class="container text-center">
 
@@ -199,7 +587,7 @@
 
        </div>
 
-    </section>
+    </section> -->
 
 
 
@@ -214,63 +602,140 @@
         
         <div class="row gap-5  mt-4   justify-content-center ">
 
-          <div class="card col-lg-4 bg-dark-blue col-sm-6 p-0 portfolio-card   card-hover-2"  >
+          <!-- <div class="card col-lg-4 bg-dark-blue col-sm-6 p-0 portfolio-card   card-hover-2"  >
             <img src="./asset/project1.jpg" class="card-img-top "  >
             <div class="card-body  ">
               <h5 class="card-title text-light my-2">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
              
             </div>
-          </div>
+          </div> -->
 
 
-
-         
-
-          <div class="card col-lg-4 bg-dark-blue p-0 col-sm-6 portfolio-card   card-hover-2"  >
+          <!-- <div class="card col-lg-4 bg-dark-blue p-0 col-sm-6 portfolio-card   card-hover-2"  >
             <div class="portfolio-img"><img src="./asset/project2.jpg" class="card-img-top "  ></div>
             <div class="card-body  ">
               <h5 class="card-title text-light my-2">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
              
             </div>
-          </div>
+          </div> -->
 
-          <div class="card col-lg-4 bg-dark-blue p-0 col-sm-6 portfolio-card   card-hover-2"  >
+          <!-- <div class="card col-lg-4 bg-dark-blue p-0 col-sm-6 portfolio-card   card-hover-2"  >
             <img src="./asset/project3.jpg" class="card-img-top "  >
             <div class="card-body  ">
               <h5 class="card-title text-light my-2">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
              
             </div>
-          </div>
+          </div> -->
 
-          <div class="card col-lg-4 bg-dark-blue p-0 col-sm-6 portfolio-card   card-hover-2"  >
+          <!-- <div class="card col-lg-4 bg-dark-blue p-0 col-sm-6 portfolio-card   card-hover-2"  >
             <img src="./asset/project4.jpg" class="card-img-top "  >
             <div class="card-body  ">
               <h5 class="card-title text-light my-2">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
              
             </div>
-          </div>
+          </div> -->
 
-          <div class="card col-lg-4 bg-dark-blue p-0 col-sm-6 portfolio-card   card-hover-2"  >
+          <!-- <div class="card col-lg-4 bg-dark-blue p-0 col-sm-6 portfolio-card   card-hover-2"  >
             <img src="./asset/project5.jpg" class="card-img-top "  >
             <div class="card-body  ">
               <h5 class="card-title text-light my-2">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
              
             </div>
-          </div>
+          </div> -->
 
-          <div class="card col-lg-4 bg-dark-blue p-0 portfolio-card   card-hover-2"  >
+          <!-- <div class="card col-lg-4 bg-dark-blue p-0 portfolio-card   card-hover-2"  >
             <img src="./asset/project6.jpg" class="card-img-top "  >
             <div class="card-body  ">
               <h5 class="card-title text-light my-2">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
              
             </div>
+          </div> -->
+
+
+        
+        <div class="portfolio-card-box col-lg-4 p-0">
+        
+          <div class="overflow-hidden rounded-top-2">
+            <img src="./asset/project1.jpg" class="card-img-top "  >
           </div>
+          <div class="card-body  ">
+            <h5 class="card-title text-light my-2">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           
+          </div>
+          
+        </div>
+
+        <div class="portfolio-card-box col-lg-4 p-0">
+        
+          <div class="overflow-hidden rounded-top-2">
+            <img src="./asset/project2.jpg" class="card-img-top "  >
+          </div>
+          <div class="card-body  ">
+            <h5 class="card-title text-light my-2">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           
+          </div>
+          
+        </div>
+
+        <div class="portfolio-card-box col-lg-4 p-0">
+        
+          <div class="overflow-hidden rounded-top-2">
+            <img src="./asset/project3.jpg" class="card-img-top "  >
+          </div>
+          <div class="card-body  ">
+            <h5 class="card-title text-light my-2">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           
+          </div>
+          
+        </div>
+
+        <div class="portfolio-card-box col-lg-4 p-0">
+        
+          <div class="overflow-hidden rounded-top-2">
+            <img src="./asset/project4.jpg" class="card-img-top "  >
+          </div>
+          <div class="card-body  ">
+            <h5 class="card-title text-light my-2">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           
+          </div>
+          
+        </div>
+
+        <div class="portfolio-card-box col-lg-4 p-0">
+        
+          <div class="overflow-hidden rounded-top-2">
+            <img src="./asset/project5.jpg" class="card-img-top "  >
+          </div>
+          <div class="card-body  ">
+            <h5 class="card-title text-light my-2">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           
+          </div>
+          
+        </div>
+
+        <div class="portfolio-card-box col-lg-4 p-0">
+        
+          <div class="overflow-hidden rounded-top-2">
+            <img src="./asset/project6.jpg" class="card-img-top "  >
+          </div>
+          <div class="card-body  ">
+            <h5 class="card-title text-light my-2">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           
+          </div>
+          
+        </div>
 
 
         </div>
@@ -427,7 +892,7 @@
 
 
 
-    <section id="blog" class="blog-section container-section">
+    <!-- <section id="blog" class="blog-section container-section">
 
       <section class="container text-center">
         <h5 class="text-light text-uppercase greet-text ">Some of my recent work</h5>
@@ -472,7 +937,7 @@
         </div>
       </section>
 
-    </section>
+    </section> -->
 
 <!-- Form Section************************************** -->
 
