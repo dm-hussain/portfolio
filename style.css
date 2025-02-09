@@ -318,7 +318,7 @@ section {
 }
 
  .swiper-slide img{
-  cursor: pointer;
+  cursor: pointer !important;
  }
 
  .swiper-slide  {
